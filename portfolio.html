@@ -15,7 +15,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="images/avatar.png" alt="" /></span>
 							<h1 id="title">Thomas Johansson</h1>
 							<p>Software developer</p>
 						</div>
@@ -24,9 +24,9 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html#myprojects" id="index-link"><span class="icon solid fa-home">Back</span></a></li>
-								<li><a href="#main" id="main-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#project1" id="project1-link"><span class="icon solid fa-chevron-circle-right">Project 1</span></a></li>
-								<li><a href="#project2" id="project2-link"><span class="icon solid fa-chevron-circle-right">Project 2</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#project1" id="project1-link"><span class="icon solid fa-chevron-circle-right">[Python] CoinCounter</span></a></li>
+								<li><a href="#project2" id="project2-link"><span class="icon solid fa-chevron-circle-right">[Python] Nonogram</span></a></li>
 							</ul>
 						</nav>
 
@@ -35,18 +35,18 @@
 				<div class="bottom">
 
 					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/tmojohansson/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Danternas" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:thomas.magnus.oliver@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/tmojohansson/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Danternas" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="mailto:jobs.tmojohansson@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label" >Email</span></a></li>
+					</ul>
 
 				</div>
 
 			</div>
 
 		<!-- Main -->
-			<div id="main">
+			<div id="main2">
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
@@ -54,7 +54,8 @@
 
 							<header>
 								<h2 class="alt">My portfolio</h2>
-								<p>Below here you is a selection of my projects to showcase my abilities in Python and Java<br /> </p>
+								<p>Below here you will find a selection of my projects meant to showcase my abilities in Python and Java<br> </p>
+								<br><br><br>
 							</header>
 
 						</div>
@@ -65,35 +66,43 @@
 						<div class="container">
 
 							<header>
-								<h2>Project 1</h2>
+								<h2>[Python] CoinCounter</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/coincounter.jpg" alt="Code" /></a>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>	
+								This is a <strong>simple example project</strong> based on the following scenario: <br><br>
+								
+								The country of Examplania has coins that are worth 1, 5, 10, 25, 100, and 500 currency units. At the Zeroth Bank of Examplania, you are trained to make various amounts of money by using as many ¤500 coins as possible, then as many ¤100 coins as possible, and so on down. 
+								For instance, if you want to give someone ¤468, you would give them four ¤100 coins, two ¤25 coins, one ¤10 coin, one ¤5 coin, and three ¤1 coins, for a total of 11 coins. <br><br>
+								
+								Write a function to return the number of coins you use to make a given amount of change. <br>
+								For example: change(0) => 0 change(12) => 3 change(468) => 11 change(123456) => 254 <br></p>
 
+							<a href="pythonprojects/CoinCounter.py" class="button scrolly" download="">Download .py file</a>
 
 						</div>
 					</section>
 
 				<!-- Project 2 -->
-				<section id="project2" class="two">
+				<section id="project2" class="three">
 					<div class="container">
 
 						<header>
-							<h2>Project 2</h2>
+							<h2>[Python] Nonogram</h2>
 						</header>
 
-						<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+						<a href="#" class="image featured"><img src="images/nonogram.jpg" alt="Code" /></a>
 
-						<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-						egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-						Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-						fusce hendrerit lacus ridiculus.</p>
+						<p>	
+							This is another <strong>simple example project</strong> based on the following scenario: <br><br>
+							
+							A binary array is an array consisting of only the values 0 and 1. Given a binary array of any length, return an array of positive integers that represent the lengths of the sets of consecutive 1's in the input array, in order from left to right. <br><br>
+							
+							For example: nonogramrow([0,0,0,0,1,1,0,0,1,0,1,1,1]) => [2,1,3] <br></p>
 
+							<a href="pythonprojects/Nonogram.py" class="button scrolly" download="">Download .py file</a>
 
 					</div>
 				</section>
